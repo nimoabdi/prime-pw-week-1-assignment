@@ -1,11 +1,13 @@
 /* Give your page a fun background color */
 body {
     background-color: cornflowerblue;
+    
 }
 /* Make the header and footer a different color from the background */
 footer {
     background-color: lightgoldenrodyellow;
     border-color: floralwhite;
+   
     
 }
 header {
@@ -18,11 +20,14 @@ h1 {
     text-align: center;
 }
 /* Make your p tag a different color and italic */
-
+p {
+    color: dimgrey;
+    font-style: italic;
+}
 /* Put a border around your image */
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-color: gold;
     border-width: 5px;
@@ -30,3 +35,6 @@ img {
 }
 
 /* Change the font-family of your list */
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
